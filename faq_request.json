@@ -1,0 +1,51 @@
+Sample Request 1: Diabetes Symptoms
+{
+  "question": "What are the common symptoms of diabetes?",
+  "session_id": "session_001",
+  "user_id": "user_101",
+  "language": "English",
+  "conversation_id": "conv_001"
+}
+Sample Request 2: Hypertension
+{
+  "question": "What causes high blood pressure and how can it be managed?",
+  "session_id": "session_002",
+  "user_id": "user_102",
+  "language": "English",
+  "conversation_id": "conv_002"
+}
+Sample Request 3: Medication Guidance
+{
+  "question": "What are the common side effects of Metformin?",
+  "session_id": "session_003",
+  "user_id": "user_103",
+  "language": "English",
+  "conversation_id": "conv_003"
+}
+Sample Request 4: Follow-Up Conversation
+{
+  "question": "I have been experiencing frequent thirst and fatigue for the past two weeks.",
+  "session_id": "session_001",
+  "user_id": "user_101",
+  "language": "English",
+  "conversation_id": "conv_001"
+}
+
+Notice that session_id and conversation_id remain the same to maintain conversation memory.
+
+Sample Request 5: Telugu Language
+{
+  "question": "మధుమేహం యొక్క సాధారణ లక్షణాలు ఏమిటి?",
+  "session_id": "session_004",
+  "user_id": "user_104",
+  "language": "Telugu",
+  "conversation_id": "conv_004"
+}
+Sample Request 6: Emergency Symptoms
+{
+  "question": "I am having chest pain and difficulty breathing. What should I do?",
+  "session_id": "session_005",
+  "user_id": "user_105",
+  "language": "English",
+  "conversation_id": "conv_005"
+}
